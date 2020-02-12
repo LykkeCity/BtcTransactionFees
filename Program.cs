@@ -16,15 +16,12 @@ namespace BtcTransactionFees
     {
         static void Main(string[] args)
         {
-            Task.WaitAll(Proceed("34p8SsMbJzS48hkwEucdj6kEnZ2hiRX6Gv"),
-                Proceed("35LF9cgNicZvcvJVFAs19bMV3fmf5CodW2"),
+            Task.WaitAll(Proceed("35LF9cgNicZvcvJVFAs19bMV3fmf5CodW2"),
                 Proceed("1PHQMMfEx6uZnRVxoCtXRopvnpzq9EiKSs"),
-                Proceed("1DXxj9VYNoCdfP5dZBeDLBWarZWsBb83kC"),
                 Proceed("33u48gM2gdz9TU5QT95JhvEpBB7zTHWPy2"),
-                Proceed("3KX28DsrYN3UUUdPVKa1UxDXWfhHW6Yfpk"),
-                Proceed("1DpV5tQnXDro9gSd58daQa9yF1rttAur8d"));
+                Proceed("3KX28DsrYN3UUUdPVKa1UxDXWfhHW6Yfpk"));
 
-            Console.WriteLine($"[{DateTime.UtcNow}] All done");5
+            Console.WriteLine($"[{DateTime.UtcNow}] All done");
 
             Console.ReadLine();
         }
