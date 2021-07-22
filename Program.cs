@@ -19,7 +19,8 @@ namespace BtcTransactionFees
             Task.WaitAll(Proceed("35LF9cgNicZvcvJVFAs19bMV3fmf5CodW2"),
                 Proceed("1PHQMMfEx6uZnRVxoCtXRopvnpzq9EiKSs"),
                 Proceed("33u48gM2gdz9TU5QT95JhvEpBB7zTHWPy2"),
-                Proceed("3KX28DsrYN3UUUdPVKa1UxDXWfhHW6Yfpk"));
+                Proceed("3KX28DsrYN3UUUdPVKa1UxDXWfhHW6Yfpk"),
+                Proceed("34p8SsMbJzS48hkwEucdj6kEnZ2hiRX6Gv"));
 
             Console.WriteLine($"[{DateTime.UtcNow}] All done");
 
